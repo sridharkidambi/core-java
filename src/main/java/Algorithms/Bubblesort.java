@@ -51,15 +51,15 @@ When sorting with same numbers the order of sequence is preserved if the same nu
 
     }
 
-    private static void swap(int[] array,int i,int j){
-        if(i==j){
-            return ;
+        private static void swap(int[] array,int i,int j){
+            if(i==j){
+                return ;
+            }
+
+            int tempValue= array[i];
+            array[i]=array[j];
+            array[j]=tempValue;
+
+
         }
-
-        int tempValue= array[i];
-        array[i]=array[j];
-        array[j]=tempValue;
-
-
-    }
 }
