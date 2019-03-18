@@ -24,6 +24,6 @@ public class javacoreapp {
         if(sample1.equals(sample3))
             System.out.println("sample1.equals(sample3)");
 
-        
+
     }
 }
