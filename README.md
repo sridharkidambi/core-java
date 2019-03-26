@@ -99,7 +99,16 @@ LinearProbing:Storing the values in the array based on key ,if occupied key+1 an
 Chaining -> using the linkedlist
 
 JDK hashtable
- hashtabel interface is MAP
+ hashtabel interface is MAP<K,V>  no collisions hence no duplicates over keys
+  has HashMap concerte class  inherited
+  its not syncronised   use collections.syncronisedmap or multi threads
+  hashmap.putifabsent method will insert key only if not avaialable
+  hashmap is a sub implementation of LinkedHashMap(hastable and linkedlist implementation)
+  hashtable doesnt allow nulls wherehas hashmap allow nulls.it is syncronised whereas hashmap is not syncronised(use concuurent haspmap or collections,syncronisemap.).
+
+
+
+
 
 
 
