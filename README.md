@@ -54,6 +54,8 @@ There is no compile-time error though.
 
 Cicular linked list
 lastnode points to the 1st.
+aarray backed  be costant or linear
+double linked list is ideal constant time
 
 
 Stack:
@@ -69,6 +71,36 @@ one example is linkedlist which implements the Deque interface.
 Queue:
 Abstract datatype
 FIFO
+JDK provides queue interface
+Array blocking queue --capacity once created remains the same.
+Concuurent Linked queue--non blocking thread safe
+Linkedlist can be used for implementing the queue(inpmenets deque)
+Supports insertation and removal at both ends.
+
+Java has a arraydeque--which is resizable and no capacity restriction
+
+LINKEDLIST  is ideal for implementing stack and queue.
+
+
+Hashtable(dictionary,maps):
+Abstract datatype like stack and queue
+Key ,value pairs
+optimized for retrival
+associative array is a type of hashtable
+
+Collision when 2 keys have same values and this can be handles programatically
+loadfactor  =size/capacity
+
+
+collision is resolved through probing( meaning fidning the next possible postion based ont he haspkey value if already occupied.)
+
+LinearProbing:Storing the values in the array based on key ,if occupied key+1 and start from 0 again.
+
+Chaining -> using the linkedlist
+
+JDK hashtable
+ hashtabel interface is MAP
+
 
 
 
