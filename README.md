@@ -106,6 +106,32 @@ JDK hashtable
   hashmap is a sub implementation of LinkedHashMap(hastable and linkedlist implementation)
   hashtable doesnt allow nulls wherehas hashmap allow nulls.it is syncronised whereas hashmap is not syncronised(use concuurent haspmap or collections,syncronisemap.).
 
+Bucket sort:
+put the numbers based on their buckets
+ensure the left bucket is less than the right bucket list
+sort each bucket using insertion sort( more performance when items are less)
+
+while using the iterator don't use the remove u will get concurrent issue error.
+
+Binary trees:
+to keep the binary trees balanced we do see algos right AVL trees and red black trees.
+
+types of search:
+level (0,1,2)
+pre-order (visit root of every subtree)
+post-order (visit theroot of every subtree last)
+inorder (visit left child,roo and right child) by default it si ordered.
+
+JDK support
+treemap<k,v> based on red black tree implementation for tree balancing.
+not syncronized. so use collections.mapmmethod syncronized.
+
+
+treeset :cannot contain duplicates its an abstract datatype
+
+
+Heap:
+A special type of binary tree.
 
 
 
