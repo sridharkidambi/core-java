@@ -132,6 +132,12 @@ treeset :cannot contain duplicates its an abstract datatype
 
 Heap:
 A special type of binary tree.
+process of converting a binary treee to heap is called heapify
+types max heap and min heap
+max heap :>  the parent is greater than the child.the min healp is otherwise.
+
+while inserting/deleting use the rightmost leafnode to replace the deleted value and traverse upwards to heapify(max heap).
+
 
 
 
