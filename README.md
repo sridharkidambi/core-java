@@ -140,6 +140,41 @@ while inserting/deleting use the rightmost leafnode to replace the deleted value
 
 
 
+Advantages of binary heap over a BST:
+
+average time insertion into a binary heap is O(1), for BST is O(log(n)). This is the killer feature of heaps.
+
+There are also other heaps which reach O(1) amortized (stronger) like the Fibonacci Heap, and even worst case, like the Brodal queue, although they may not be practical because of non-asymptotic performance: https://stackoverflow.com/questions/30782636/are-fibonacci-heaps-or-brodal-queues-used-in-practice-anywhere
+
+binary heaps can be efficiently implemented on top of either dynamic arrays or pointer-based trees, BST only pointer-based trees. So for the heap we can choose the more space efficient array implementation, if we can afford occasional resize latencies.
+
+binary heap creation is O(n) worst case, O(n log(n)) for BST.
+
+Advantage of BST over binary heap
+
+search for arbitrary elements is O(log(n)). This is the killer feature of BSTs.
+
+For heap, it is O(n) in general, except for the largest element which is O(1).
+
+"False" advantage of heap over BST
+
+heap is O(1) to find max, BST O(log(n)).
+
+This is a common misconception, because it is trivial to modify a BST to keep track of the largest element, and update it whenever that element could be changed: on insertion of a larger one swap, on removal find the second largest. https://stackoverflow.com/questions/7878622/can-we-use-binary-search-tree-to-simulate-heap-operation (mentioned by Yeo).
+
+Actually, this is a limitation of heaps compared to BSTs: the only efficient search is that for the largest element.
+
+
+Priority queue :(a specfic usecase to Heap)
+
+its an abstract datatype
+
+priorityblockingqueue for syncronized
+
+
+Set:
+Doesnot allow duplicates(implements interface Set.Also an abstract datatype
+
 
 
 
