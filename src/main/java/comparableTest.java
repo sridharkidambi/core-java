@@ -14,10 +14,18 @@ public class comparableTest {
         moviesList.add(new movies("stru",3.8F,1075));
         moviesList.add(new movies("abcd",4.8F,1975));
 
+        //comparable
         Collections.sort(moviesList);
 
         for (movies movie: moviesList){
             System.out.println("movie name: "+ movie.getName() + "movie year: "+ movie.getYear());
+        }
+
+        //comparator
+        Collections.sort(moviesList, new ratingsComparator());
+
+        for (movies movie: moviesList){
+            System.out.println("movie name: "+ movie.getName() + "movie ratings: "+ movie.getRating());
         }
     }
     }

@@ -1,5 +1,33 @@
 # core-java
-core java and data structures
+
+##### Autoboxing and unboxing:
+
+converting a primitive type to a class type is called autoboxing.
+vice versa is unboxing.
+
+
+##### How to create Immutable class in Java?
+
+
+Following are the requirements:
+• Class must be declared as final (So that child classes can’t be created)
+• Data members in the class must be declared as final (So that we can’t change the value of it after object creation)
+• A parameterized constructor
+• Getter method for all the variables in it
+• No setters(To not have option to change the value of the instance variable)
+
+
+
+#####Immutable:
+Immutable objects are very useful in multithreaded applications 
+because they can be shared between threads without synchronization.
+
+
+###### oAuth:
+
+bcrypt is a password hashing function 
+
+##### core java and data structures
 
 this project summarizes  over the various data structure algorithms
 
