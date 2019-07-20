@@ -65,7 +65,7 @@ Vectors:
 
 LinkedList
 items knows which items comes next
-add /remove itesm from the front will have same time complexity as there is no iteration for it.
+add /remove items from the front will have same time complexity as there is no iteration for it.
 
 
 DoubleLinkedList:
