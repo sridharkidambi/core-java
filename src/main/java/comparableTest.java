@@ -3,10 +3,14 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class comparableTest {
     public  static  void  main(String[] str) {
+
+
+
 
         List<movies> moviesList=new ArrayList<movies>();
 
@@ -27,6 +31,21 @@ public class comparableTest {
         for (movies movie: moviesList){
             System.out.println("movie name: "+ movie.getName() + "movie ratings: "+ movie.getRating());
         }
+
+
+    }
+
+    public  static void myMethod(){
+
+        final Comparator<movies> MV_LST;
+
+        MV_LST=new Comparator<movies>() {
+            @Override
+            public int compare(movies o1, movies o2) {
+                return 0;
+            }
+        };
+
     }
     }
 
