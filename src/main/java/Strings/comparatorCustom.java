@@ -67,6 +67,8 @@ public class comparatorCustom {
 
             }
 
+
+
             moviesList= moviesList.stream().filter(x->x.getName().startsWith("a")).collect(Collectors.<movies>toList());
 
         }
