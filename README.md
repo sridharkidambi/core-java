@@ -227,6 +227,9 @@ Consistent : for any reference values a and b, multiple invocations of a.equals(
  two objects are equal if and only if they are stored in the same memory address.
  
  ######The general contract of hashCode is:
+ HashSet stores its elements in memory buckets. Each bucket is linked to a particular hash code. 
+ When calling students.add(alex1), Java stores alex1 inside a bucket and links it to the value of alex1.hashcode()
+ 
  
  During the execution of the application, if hashCode() is invoked more than once on the same Object then it must consistently return the same Integer value, provided no information used in equals(Object) comparison on the Object is modified. It is not necessary that this Integer value to be remained same 
  from one execution of the application to another execution of the same application.
