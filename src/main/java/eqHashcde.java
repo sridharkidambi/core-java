@@ -4,6 +4,13 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 
+/*
+    If two objects are equal, they MUST have the same hash code.
+If two objects have the same hash code, it doesn't mean that they are equal.
+Overriding equals() alone will make your business fail with hashing data structures like: HashSet, HashMap, HashTable ... etc.
+Overriding hashcode() alone doesn't force Java to ignore memory addresses when comparing two objects.
+ */
+
 public class eqHashcde {
 
 
