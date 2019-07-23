@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28bc7918-577a-4292-a1a5-028f9798907e" name="Default Changelist" comment="unmodifiable arryalist">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eqHashcde.java" afterDir="false" />
+    <list default="true" id="28bc7918-577a-4292-a1a5-028f9798907e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eqHashcde.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eqHashcde.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Model/Student.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="479">
-              <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+              <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
               <folding>
                 <element signature="e#203#204#0" expanded="true" />
                 <element signature="e#228#229#0" expanded="true" />
@@ -66,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/eqHashcde.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+              <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#245#254#0" expanded="true" />
@@ -260,7 +259,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563861816566" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563862007669" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -484,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563861432818</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="equals and hascode with list and hashset">
+      <created>1563861859900</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1563861859900</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -527,7 +533,8 @@
     <MESSAGE value="comparable" />
     <MESSAGE value="comparator" />
     <MESSAGE value="unmodifiable arryalist" />
-    <option name="LAST_COMMIT_MESSAGE" value="unmodifiable arryalist" />
+    <MESSAGE value="equals and hascode with list and hashset" />
+    <option name="LAST_COMMIT_MESSAGE" value="equals and hascode with list and hashset" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -588,13 +595,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/eqHashcde.java</url>
-          <line>24</line>
+          <line>32</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/eqHashcde.java</url>
-          <line>18</line>
+          <line>22</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
@@ -959,7 +966,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Model/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
-          <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
           <folding>
             <element signature="e#203#204#0" expanded="true" />
             <element signature="e#228#229#0" expanded="true" />
@@ -978,7 +985,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/eqHashcde.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#245#254#0" expanded="true" />
