@@ -60,10 +60,20 @@ Concurrency in JAva:
 https://winterbe.com/posts/2015/04/30/java8-concurrency-tutorial-synchronized-locks-examples/
 
 
-Vectors:
+#####Vectors:
 1.Thread safe arraylist  is vector.its syncronized.
 
-LinkedList
+###### ARRAY VS ARRAYLIST
+
+Difference between Array and ArrayList are following:
+
+Implementation of array is simple fixed sized array but Implementation of ArrayList is dynamic sized array.
+Array can contain both primitives and objects but ArrayList can contain only object elements
+You can’t use generics along with array but ArrayList allows us to use generics to ensure type safety.
+You can use length variable to calculate length of an array but size() method to calculate size of ArrayList.
+Array use assignment operator to store elements but ArrayList use add() to insert elements.
+
+######LinkedList
 items knows which items comes next
 add /remove items from the front will have same time complexity as there is no iteration for it.
 
@@ -240,4 +250,15 @@ Consistent : for any reference values a and b, multiple invocations of a.equals(
  It can be same but producing the distinct Integer on each of the two Objects is better for improving the performance of hashing based Collections like HashMap, HashTable…etc.
 
 
+###### LIST SET
+Another key difference between List and Set is that List is an ordered collection, 
+List's contract maintains insertion order or element. Set is an unordered collection, you get no guarantee on which order element
+ will be stored. 
 
+Though some of the Set implementation e.g. LinkedHashSet maintains order. Also SortedSet and SortedMap e.g. TreeSet and TreeMap 
+maintain a sorting order, imposed by using Comparator or Comparable.
+The list allows null elements and you can have many null objects in a List because it also allowed duplicates. 
+Set just allow one null element as there is no duplicate permitted while in Map you can have null values and at most one null key. 
+
+Worth noting is that Hashtable doesn't allow null key or values but HashMap allows null values and one null key.  
+This is also the main difference between these two popular implementations of Map interface, aka HashMap vs Hashtable. 
