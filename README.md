@@ -204,7 +204,37 @@ Set:
 Doesnot allow duplicates(implements interface Set.Also an abstract datatype
 
 
+Some principles of equals() method of Object class : If some other object is equal to a given object, then it follows these rules:
 
+
+#####Shallow comparison: 
+The default implementation of equals method is defined in Java.lang.Object class which simply checks 
+if two Object references (say x and y) refer to the same Object. i.e. 
+It checks if x == y. Since Object class has no data members that define its state, it is also known as shallow comparison.
+#####Deep Comparison: 
+Suppose a class provides its own implementation of equals() method in order to compare the Objects of 
+that class w.r.t state of the Objects. That means data members (i.e. fields) of Objects are to be compared with one another. Such Comparison based on data members is known as deep comparison.
+
+
+Reflexive : for any reference value a, a.equals(a) should return true.
+Symmetric : for any reference values a and b, if a.equals(b) should return true then b.equals(a) must return true.
+Transitive : for any reference values a, b, and c, if a.equals(b) returns true and b.equals(c) returns true, then a.equals(c) should return true.
+Consistent : for any reference values a and b, multiple invocations of a.equals(b) consistently return true or consistently return false,
+ provided no information used in equals comparisons on the object is modified.
+ 
+ #######equals:
+ equals(Object obj): a method provided by java.lang.Object that indicates whether some other object passed as an argument is "equal to" the current instance. The default implementation provided by the JDK is based on memory location — 
+ two objects are equal if and only if they are stored in the same memory address.
+ 
+ ######The general contract of hashCode is:
+ 
+ During the execution of the application, if hashCode() is invoked more than once on the same Object then it must consistently return the same Integer value, provided no information used in equals(Object) comparison on the Object is modified. It is not necessary that this Integer value to be remained same 
+ from one execution of the application to another execution of the same application.
+ If two Objects are equal, according to the the equals(Object) method, then hashCode() method 
+ must produce the same Integer on each of the two Objects.
+ If two Objects are unequal, according to the the equals(Object) method, 
+ It is not necessary the Integer value produced by hashCode() method on each of the two Objects will be distinct. 
+ It can be same but producing the distinct Integer on each of the two Objects is better for improving the performance of hashing based Collections like HashMap, HashTable…etc.
 
 
 
